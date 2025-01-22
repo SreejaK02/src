@@ -1,0 +1,14 @@
+ATM: 
+
+*State Problem: The ATM can be in different states, and its behavior changes depending on the state, (a PIN,dispensing cash).
+Solution: Use the State Pattern to represent the different states and allow the ATM to transition between them.
+
+*The Factory Method -different types of accounts/transactions(SavingsAccount, CheckingAccount) and transaction types (Deposit, Withdrawal, Transfer).
+You need a way to create different objects based on the account type or transaction type.
+
+*Strategy Pattern: ATM needs to support multiple withdrawal strategies or transaction fee strategies.
+To handle different withdrawal strategies (e.g., domestic vs. international).
+
+*Command Pattern- For all actions- Withdrawl, balance enquiry-to wrap user action in command objects that can be executed.
+
+*Observer Pattern/message pattern: If you need to notify to users whenever a transaction occurs -to update a bank's server or notify the user via message/email.
